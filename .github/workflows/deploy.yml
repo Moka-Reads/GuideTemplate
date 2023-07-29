@@ -1,8 +1,7 @@
 name: Deploy to Gh-Pages
-
 on:
   push:
-    branches: [master]
+    branches: [main]
 permissions: write-all
 jobs:
   deploy-to-gh-pages:
