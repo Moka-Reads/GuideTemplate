@@ -12,6 +12,7 @@ jobs:
         with:
           toolchain: stable
       - run: cargo install mdbook
+      - run: cargo install mdbook-pdf
       - run:  mdbook build
       - run: touch book/.nojekyll
       - name: Commit book to Gh-Pages
